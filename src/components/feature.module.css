@@ -1,0 +1,24 @@
+
+.ft{
+  margin-left: 150px;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.imgs img{
+  padding: 5px;
+  max-width:300px;
+}
+
+.imgs img:hover{
+  transform: scale(1.01)
+}
+
+.texts img{
+  display: flex;
+  margin-left:100px;
+  flex-direction: column;
+  max-width: 300px;
+  position:relative;
+}

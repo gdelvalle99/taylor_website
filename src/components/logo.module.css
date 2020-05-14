@@ -1,0 +1,31 @@
+@import url("https://use.typekit.net/xxr5zif.css");
+
+.first_name{
+  color: rgb(141,17,28);
+  display: inline-block;
+}
+
+.last_name{
+  display: inline-block;
+}
+
+.name{
+  font-family: baskerville-display-pt, serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.logo_img{
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  display: block;
+}
+
+
+.image{
+  display: block;
+  margin: 0 auto;
+  max-width: 75%;
+  max-height: 75%;
+}
