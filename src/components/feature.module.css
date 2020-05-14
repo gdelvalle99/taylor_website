@@ -1,6 +1,7 @@
 
 .ft{
-  margin-left: 150px;
+  margin-left: 20%;
+  margin-right: 20%;
   display: flex;
   flex-direction: row;
 }
@@ -8,7 +9,7 @@
 
 .imgs img{
   padding: 5px;
-  max-width:300px;
+  max-width:30vw;
 }
 
 .imgs img:hover{
@@ -17,8 +18,7 @@
 
 .texts img{
   display: flex;
-  margin-left:100px;
+  margin-left:10%;
   flex-direction: column;
-  max-width: 300px;
-  position:relative;
+  max-width: 30vw;
 }

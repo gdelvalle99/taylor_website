@@ -9,7 +9,7 @@ import daily_text from "../media/daily_mail.png"
 import daily_cover from "../media/link2.jpg"
 import sagebrush_text from "../media/nevada_sage_brush.png"
 import sagebrush_cover from "../media/link4.jpg"
-
+import globalStyle from "../styles/global.css"
 export default function Features() {
   return (
     <div>
