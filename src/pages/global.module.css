@@ -37,6 +37,12 @@ p{
   margin-right: auto;
   width: 75vw;
 }
+.video{
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .g_abt_me_final_box ,
 .g_abt_me_final_box .g_artboard {
