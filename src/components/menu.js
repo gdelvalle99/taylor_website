@@ -11,7 +11,6 @@ export default function Menu() {
       <button className={menuStyles.dropbtn}>More</button>
       <div className={menuStyles.dropcontent}>
         <Link to="/features/">Features</Link>
-        <Link to="/sponsors/">Collaborators</Link>
         <Link to="/blog/">Blog</Link>
       </div>
     </div>

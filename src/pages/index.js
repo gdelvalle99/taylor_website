@@ -5,6 +5,7 @@ import globalStyle from "./global.module.css"
 import aboutMe from "../media/abtme.png"
 import { css } from "@emotion/core"
 import video from "../media/video.mp4"
+import contact from "../media/contact.png"
 
 function AboutMe() {
   return<div>
@@ -42,6 +43,7 @@ export default function Home() {
     <source src={video} type="video/mp4" />
     </video>
     <img className={globalStyle.main_img} src={aboutMe} />
+    <img className={globalStyle.contact} src={contact} />
     </div>
   )
 }
