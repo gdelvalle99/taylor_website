@@ -9,6 +9,8 @@ import daily_text from "../media/daily_mail.png"
 import daily_cover from "../media/link2.jpg"
 import sagebrush_text from "../media/nevada_sage_brush.png"
 import sagebrush_cover from "../media/link4.jpg"
+import kolo_cover from "../media/kololink.png"
+import kolo_text from "../media/kolofeature.png"
 import globalStyle from "../styles/global.css"
 export default function Features() {
   return (
@@ -18,6 +20,7 @@ export default function Features() {
       <Feature link="https://www.fashionmagazinenyc.com/post/taylor-uchytil-nyfw-2020-pier-59" cover={fashion_cover} text={fashion_text} />
       <Feature link="https://www.dailymail.co.uk/femail/article-7580887/The-worlds-professional-catwalk-model-Downs.html" cover={daily_cover} text={daily_text} />
       <Feature link="http://nevadasagebrush.com/blog/2018/10/08/19-year-old-reno-fashion-designer-invited-to-new-york-fashion-week-2019/?fbclid=IwAR114UE5z6-vSG755JaZ69dv0jxVF9Rh4bc47H0uLmHJQrcCk9OKHQCthGY" cover={sagebrush_cover} text={sagebrush_text} />
+      <Feature link="https://www.kolotv.com/content/news/Reno-designer-makes-debut-at-New-York-Fashion-Week-512675061.html" cover={kolo_cover} text={kolo_text} />
     </div>
   )
 }

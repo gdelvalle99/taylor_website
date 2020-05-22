@@ -1,5 +1,5 @@
 import React from "react"
-import girl from '../media/girl-4.png'
+import girl from '../media/girl-5.png'
 import logoStyles from "./logo.module.css"
 
 export default function Logo() {

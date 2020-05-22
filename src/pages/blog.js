@@ -2,6 +2,7 @@ import React from "react"
 import Menu from "../components/menu"
 import Logo from "../components/logo"
 import { Link, graphql } from "gatsby"
+import blogStyle from "./blog.module.css"
 
 export default function Blog({ data }) {
     const siteTitle = "taylor uchytil"
@@ -9,7 +10,7 @@ export default function Blog({ data }) {
     <div>
     <Menu />
     <Logo />
-    <h1>Blog</h1>
+    <h1 className={blogStyle.header}>Blog</h1>
     <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
     {data.allMarkdownRemark.edges.map(({ node }) => (
       <div key={node.id}>

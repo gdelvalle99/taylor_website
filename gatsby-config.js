@@ -10,6 +10,7 @@ module.exports = {
       title: `Pandas Eating Lots`,
     },
     plugins: [
+      `gatsby-plugin-emotion`,
       {
         resolve: `gatsby-source-filesystem`,
         options: {
