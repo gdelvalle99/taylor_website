@@ -20,6 +20,7 @@ export default function Blog({ data }) {
       </span>
       </h3>
       <p>{node.excerpt}</p>
+      <img src={node.frontmatter.image} />
       </Link>
       </div>
     ))}
@@ -37,6 +38,7 @@ export const query = graphql`
           frontmatter {
             title
             date(formatString: "DD MMMM, YYYY")
+            image
           }
           fields {
             slug

@@ -6,6 +6,7 @@ export default function BlogPost({ data }){
   return(
     <div>
       <h1>{post.frontmatter.title}</h1>
+      <img src={post.frontmatter.image} />
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
     </div>
   )
@@ -17,6 +18,7 @@ export const query = graphql`
       html
       frontmatter {
         title
+        image
       }
     }
   }
