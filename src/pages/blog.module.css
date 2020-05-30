@@ -3,3 +3,53 @@
 html{
   font-family: baskerville-display-pt, serif;
 }
+
+.title{
+  margin-bottom: 5%;
+  text-align: center;
+  font-size: 4vw;
+}
+
+@media screen and (min-width:1200px)
+{
+  .title{
+    font-size: 50px;
+  }
+}
+.header{
+  color: rgb(141,17,28);
+  display: inline-block;
+  text-align: center;
+}
+.blogHeader{
+  display: inline-block;
+  text-align: center;
+}
+
+.links{
+  text-decoration: none;
+  color:inherit;
+}
+
+.bkg{
+  text-align: center;
+  display: block;
+  max-width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text{
+  margin-top: 10%;
+}
+.Post{
+  max-width: 100%;
+  text-align: center;
+}
+
+.Image{
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+}

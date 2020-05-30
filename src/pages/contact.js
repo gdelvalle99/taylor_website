@@ -1,11 +1,29 @@
 import React from "react"
 import Menu from "../components/menu"
 import globalStyle from "./global.module.css"
-import contact from "../media/contact.png"
+import { graphql } from "gatsby"
+import Img from "gatsby-image"
 
-export default function Contact() {
+export default function Contact({ data }) {
   return <div>
   <Menu />
-  <img className={globalStyle.contact} src={contact} />
+  <Img
+        fluid={data.file.childImageSharp.fluid}
+        alt="A corgi smiling happily"
+      />
   </div>
 }
+
+
+export const query = graphql`
+  query MyQuery {
+    file(relativePath: { eq: "gallery/abtme.png" }) {
+      childImageSharp {
+        # Specify the image processing specifications right in the query.
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`

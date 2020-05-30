@@ -6,6 +6,7 @@ import aboutMe from "../media/abtme.png"
 import { css } from "@emotion/core"
 import mainVideo from "../media/mainVideo.mp4"
 import contact from "../media/contact.png"
+import addToMailchimp from 'gatsby-plugin-mailchimp'
 
 function AboutMe() {
   return<div>
@@ -31,6 +32,9 @@ function AboutMe() {
   </div>
   </div>
 }
+
+
+
 
 
 
