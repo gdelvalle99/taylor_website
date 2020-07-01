@@ -11,11 +11,19 @@ module.exports = {
     },
     plugins: [
       `gatsby-plugin-emotion`,
+      `gatsby-plugin-material-ui`,
       {
         resolve: `gatsby-source-filesystem`,
         options: {
           name: `src`,
           path: `${__dirname}/src/`,
+        },
+      },
+      {
+        resolve: `gatsby-source-filesystem`,
+        options: {
+          name: `gallery`,
+          path: `${__dirname}/src/gallery/`,
         },
       },
       {
@@ -29,5 +37,6 @@ module.exports = {
       `gatsby-plugin-sharp`,
       `gatsby-transformer-sharp`,
       `gatsby-image`,
+      `gatsby-transformer-yaml`,
     ],
   }

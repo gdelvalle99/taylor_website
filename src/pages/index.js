@@ -7,7 +7,7 @@ import { css } from "@emotion/core"
 import mainVideo from "../media/mainVideo.mp4"
 import contact from "../media/contact.png"
 import addToMailchimp from 'gatsby-plugin-mailchimp'
-
+import EmailListForm from "../components/email"
 function AboutMe() {
   return<div>
     <div className={globalStyle.container}>
@@ -47,7 +47,12 @@ export default function Home() {
     <source src={mainVideo} type="video/mp4" />
     </video>
     <img className={globalStyle.main_img} src={aboutMe} />
+    <div className={globalStyle.footer}>
     <img className={globalStyle.contact} src={contact} />
+    <div className={globalStyle.emailStyle}>
+    <EmailListForm />
+    </div>
+    </div>
     </div>
   )
 }

@@ -14,7 +14,6 @@ export default function Menu() {
         <Link to="/blog/">Blog</Link>
       </div>
     </div>
-    <Link to="/contact/">Gallery</Link>
     <Link to="/exhibits/">Exhibits</Link>
     <Link to="/">About</Link>
   </div>
