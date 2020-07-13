@@ -29,7 +29,7 @@ html{
   float:left;
 }
 
-@media screen and (max-width:800px)
+@media screen and (max-width:630px)
 {
   .title{
     margin-left: 25%;
