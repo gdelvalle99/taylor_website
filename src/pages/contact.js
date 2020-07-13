@@ -7,7 +7,8 @@ import Img from "gatsby-image"
 
 const imgGridStyle = {
   display: 'grid',
-  gridTemplateColumns:`repeat(auto-fill, 200px)`
+  gridTemplateColumns:`repeat(auto-fill, 200px)`,
+  margin: '10px'
 };
 
 export default function Contact({ data }) {
@@ -15,7 +16,7 @@ export default function Contact({ data }) {
   <Menu />
   <div style={imgGridStyle}>
   {data.allFile.edges.map(edge =>
-    <Img fluid={edge.node.childImageSharp.fluid} alt=""/>
+    <Img className={globalStyle.myImg} fluid={edge.node.childImageSharp.fluid} alt=""/>
   )}
   </div>
   </div>
@@ -24,7 +25,9 @@ export default function Contact({ data }) {
 
 export const query = graphql`
   query{
-    allFile(filter: {
+    allFile(
+      sort: {fields: dir}
+      filter: {
         absolutePath: { regex: "/gallery/"}
       })
       {

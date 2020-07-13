@@ -10,6 +10,7 @@ export default function BlogPost({ data }){
   return(
     <div className={blogpostStyles.daddy}>
     <Menu />
+    
       <h1 className={blogpostStyles.title}>{post.frontmatter.title}</h1>
       <div className={blogpostStyles.main}>
       <div className={blogpostStyles.container}>
