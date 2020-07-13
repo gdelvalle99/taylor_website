@@ -21,6 +21,24 @@ handleChange = event => {
 render() {
     return (
       <form onSubmit={this._handleSubmit}>
+      <TextField
+        id="outlined-email-input"
+        label="First Name"
+        type="fname"
+        name="fname"
+        autoComplete="fname"
+        variant="outlined"
+        onChange={this.handleChange}
+      />
+      <TextField
+        id="outlined-email-input"
+        label="Last Name"
+        type="lname"
+        name="lname"
+        autoComplete="lname"
+        variant="outlined"
+        onChange={this.handleChange}
+      />
         <TextField
           id="outlined-email-input"
           label="Email"
@@ -33,7 +51,6 @@ render() {
         <br />
         <Button
           variant="contained"
-          color="primary"
           label="Submit"
           type="submit"
         >

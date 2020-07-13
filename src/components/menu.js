@@ -1,11 +1,25 @@
 import React from "react"
 import { Link } from "gatsby"
-
+import EmailListForm from "../components/email"
 import menuStyles from "./menu.module.css"
 
+
+
+
 export default function Menu() {
+  var state = false;
+  function Modal( {state} ){
+    if(!state){
+      return null;
+    }
+      return <div>
+      <EmailListForm />
+      </div>
+  };
+
   return <div className={menuStyles.container}>
   <div className={menuStyles.instagram}>@tayloruchytil</div>
+  <button className={menuStyles.subbutton}>Subscribe</button>
   <div className={menuStyles.nav}>
     <div className={menuStyles.dropdown}>
       <button className={menuStyles.dropbtn}>More</button>

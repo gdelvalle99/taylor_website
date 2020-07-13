@@ -30,12 +30,11 @@ p{
 }
 
 .contact{
-  float:left;
-  display:block;
-  width: 200px;
-  margin-top: 5%;
-  margin-left: 5%;
-  margin-bottom: 10%;
+  margin-top: 3vw;
+  max-width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main_img{
@@ -54,9 +53,9 @@ p{
 }
 
 .footer{
-  background-color: yellow;
-  margin-top: 10%;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .gall{
@@ -64,10 +63,4 @@ p{
   margin-right: 5px;
   margin-top: 5px;
   margin-bottom: 5px;
-}
-
-.emailStyle{
-  margin-top:5%;
-  float:right;
-  margin-right: 5%;
 }

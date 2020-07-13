@@ -8,12 +8,12 @@ import Menu from "../components/menu"
 export default function BlogPost({ data }){
   const post = data.markdownRemark
   return(
-    <div>
+    <div className={blogpostStyles.daddy}>
     <Menu />
       <h1 className={blogpostStyles.title}>{post.frontmatter.title}</h1>
       <div className={blogpostStyles.main}>
-      <div className={blogpostStyles.text} dangerouslySetInnerHTML={{ __html: post.html }} />
       <div className={blogpostStyles.container}>
+      <div className={blogpostStyles.text} dangerouslySetInnerHTML={{ __html: post.html }} />
       <Img className={blogpostStyles.Image} fluid={post.frontmatter.image.childImageSharp.fluid} />
       </div>
       </div>

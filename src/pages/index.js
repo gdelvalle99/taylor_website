@@ -43,15 +43,12 @@ export default function Home() {
     <div>
     <Menu />
     <Logo />
-    <video className={globalStyle.video} controls muted autoplay loop>
+    <video className={globalStyle.video} controls muted autoPlay loop>
     <source src={mainVideo} type="video/mp4" />
     </video>
     <img className={globalStyle.main_img} src={aboutMe} />
     <div className={globalStyle.footer}>
     <img className={globalStyle.contact} src={contact} />
-    <div className={globalStyle.emailStyle}>
-    <EmailListForm />
-    </div>
     </div>
     </div>
   )
