@@ -87,7 +87,12 @@
   background: none!important;
   border: none;
 }
-
+.outModal{
+  margin-top: 7px
+}
+.emailModal{
+  display: block;
+}
 .subbutton{
   background-color: red;
   font-family: baskerville-display-pt, serif;
@@ -99,6 +104,7 @@
   border: none;
   text-decoration: none;
   color: black;
+  cursor: pointer;
 }
 .dropdown:hover .dropcontent{
   display: block;
