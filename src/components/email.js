@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import TextField from "@material-ui/core/TextField"
 import Button from "@material-ui/core/Button"
 import { Typography } from "@material-ui/core"
-import * as styles from './email.module.css';
+import emailStyles from './email.module.css';
 
 export default class MailChimpForm extends React.Component {
   constructor() {
@@ -20,8 +20,10 @@ handleChange = event => {
   }
 render() {
     return (
+      <div className={emailStyles.formIn}>
       <form onSubmit={this._handleSubmit}>
       <TextField
+        className={emailStyles.formIn}
         id="outlined-email-input"
         label="First Name"
         type="fname"
@@ -30,7 +32,10 @@ render() {
         variant="outlined"
         onChange={this.handleChange}
       />
+      <br />
+      <br />
       <TextField
+        className={emailStyles.formIn}
         id="outlined-email-input"
         label="Last Name"
         type="lname"
@@ -39,7 +44,10 @@ render() {
         variant="outlined"
         onChange={this.handleChange}
       />
+      <br />
+      <br />
         <TextField
+          className={emailStyles.formIn}
           id="outlined-email-input"
           label="Email"
           type="email"
@@ -49,6 +57,7 @@ render() {
           onChange={this.handleChange}
         />
         <br />
+        <br />
         <Button
           variant="contained"
           label="Submit"
@@ -57,6 +66,7 @@ render() {
           <Typography variant="button">Join my email list!</Typography>
         </Button>
       </form>
+      </div>
     )
   }
 }
