@@ -94,6 +94,7 @@
 .emailModal{
   display: block;
   overflow: hidden;
+  outline: none;
 }
 
 .subbutton{

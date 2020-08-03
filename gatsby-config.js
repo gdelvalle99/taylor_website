@@ -38,5 +38,6 @@ module.exports = {
       `gatsby-transformer-sharp`,
       `gatsby-image`,
       `gatsby-transformer-yaml`,
+      `gatsby-plugin-styled-components`,
     ],
   }
