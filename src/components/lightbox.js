@@ -15,6 +15,9 @@ const PreviewButton = styled.button`
   border: none;
   padding: 0;
   margin: 0;
+  height: 100px;
+  overflow: hidden;
+  clip: rect(0px,200px,200px,0px);
 `
 export default class Lightbox extends Component {
   static propTypes = {

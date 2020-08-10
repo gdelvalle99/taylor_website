@@ -17,7 +17,7 @@ const Images = () => (
               id
               childImageSharp{
             # Specify the image processing specifications right in the query.
-              fluid(maxWidth: 200, maxHeight: 200) {
+              fluid {
                 src
               ...GatsbyImageSharpFluid
               }
