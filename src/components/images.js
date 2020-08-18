@@ -17,7 +17,11 @@ const Images = () => (
               id
               childImageSharp{
             # Specify the image processing specifications right in the query.
-              fluid {
+              tabImage: fluid(maxWidth: 200, maxHeight: 200) {
+                src
+              ...GatsbyImageSharpFluid
+              }
+              fullImage: fluid {
                 src
               ...GatsbyImageSharpFluid
               }

@@ -11,11 +11,10 @@ const LightboxContainer = styled.div`
   grid-gap: 5px;
 `
 const PreviewButton = styled.button`
-  background: transparent;
   border: none;
   padding: 0;
-  margin: 0;
-  height: 100px;
+  margin: 5px;
+  height: 200px;
   overflow: hidden;
   clip: rect(0px,200px,200px,0px);
 `
@@ -38,19 +37,19 @@ export default class Lightbox extends Component {
         <LightboxContainer>
           {gallImages.map(image => (
             <PreviewButton
-              key={image.node.childImageSharp.fluid.src}
+              key={image.node.childImageSharp.tabImage.src}
               type="button"
               onClick={() =>
                 this.setState({ showLightbox: true, selectedImage: image })
               }
             >
-              <Img fluid={image.node.childImageSharp.fluid} />
+              <Img fluid={image.node.childImageSharp.tabImage} />
             </PreviewButton>
           ))}
         </LightboxContainer>
         {showLightbox && (
           <Dialog>
-            <Img fluid={selectedImage.node.childImageSharp.fluid} />
+            <Img fluid={selectedImage.node.childImageSharp.fullImage} />
             <button
               type="button"
               onClick={() => this.setState({ showLightbox: false })}
