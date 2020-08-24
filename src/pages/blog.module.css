@@ -34,13 +34,17 @@ html{
 .bkg{
   text-align: center;
   display: block;
-  max-width: 50%;
+  max-width: 100%;
   margin-right: auto;
   margin-left: auto;
 }
 
+.rule{
+  width:100%;
+  background-color: red;
+}
+
 .text{
-  margin-top: 10%;
 }
 .Post{
   max-width: 100%;
@@ -48,7 +52,7 @@ html{
 }
 
 .Image{
-  margin-top: 10%;
+  margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
   width: 250px;

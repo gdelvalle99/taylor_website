@@ -4,7 +4,7 @@ import TextField from "@material-ui/core/TextField"
 import Button from "@material-ui/core/Button"
 import { Typography } from "@material-ui/core"
 import emailStyles from './email.module.css';
-
+import Alert from '@material-ui/lab/Alert';
 export default class MailChimpForm extends React.Component {
   constructor() {
     super()

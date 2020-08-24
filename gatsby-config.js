@@ -12,6 +12,7 @@ module.exports = {
     plugins: [
       `gatsby-plugin-emotion`,
       `gatsby-plugin-material-ui`,
+      `gatsby-plugin-material-ui`,
       {
         resolve: `gatsby-source-filesystem`,
         options: {
@@ -39,5 +40,21 @@ module.exports = {
       `gatsby-image`,
       `gatsby-transformer-yaml`,
       `gatsby-plugin-styled-components`,
+      {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              maxWidth: 700,
+            },
+          },
+        ],
+      },
+    },
     ],
   }

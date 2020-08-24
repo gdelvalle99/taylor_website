@@ -16,6 +16,7 @@ export default function Blog({ data }) {
     </div>
     {data.allMarkdownRemark.edges.map(({ node }) => (
       <div className={blogStyle.bkg}>
+      <hr className={blogStyle.rule}></hr>
       <Link className={blogStyle.links} to={node.fields.slug}>
       <Img className={blogStyle.Image} fluid={node.frontmatter.image.childImageSharp.fluid} />
       <div className={blogStyle.Post}>
