@@ -15,10 +15,8 @@
 
 p{
   margin: 0;
-  font-style: italic;
 }
 .textcontainer{
-  background-color: yellow;
   font-size: 100%;
   display: block;
   max-width:60vw;
@@ -63,8 +61,8 @@ p{
 }
 
 .contact{
-  margin-top: 3vw;
-  max-width: 50%;
+  margin-top: 500px;
+  max-width: 500px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -96,4 +94,75 @@ p{
   margin-right: 5px;
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+/* About me styling */
+
+.main{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 1000px;
+}
+.main_image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+.image_text{
+  position: absolute;
+  top: 170px;
+  right: 55px;
+  font-style: italic;
+}
+p{
+  margin:.5%;
+  padding:0;
+}
+.first{
+  margin-bottom: 100px;
+}
+.bottom_text{
+  background-color: yellow;
+  width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-style: italic;
+}
+.creat_text{
+  position: absolute;
+  left: 420px;
+  top: 860px;
+  font-size: 23.62pt;
+}
+.amp_text{
+  position: absolute;
+  left: 555px;
+  top: 805px;
+  font-size: 47.24pt;
+}
+.fashion_text{
+  position: absolute;
+  left: 320px;
+  font-size: 23.62pt;
+}
+.last_par{
+  font-style: italic;
+  text-align: left;
+  display:block;
+  padding:0;
+  position: absolute;
+  top: 920px;
+  left: 320px;
+  width: 500px;
 }

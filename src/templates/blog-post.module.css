@@ -4,54 +4,61 @@ html{
   font-family: baskerville-display-pt, serif;
 }
 
-.Image{
-  width: 200px;
+.head{
+  display: flex;
   margin-left: auto;
   margin-right: auto;
+  width:1000px;
+  overflow: hidden;
+}
+
+.titleDiv{
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 500px;
+  text-align: center;
+}
+
+.Image{
+  width: 500px;
   margin-bottom: 25px;
 }
 
-.daddy{
+.rule{
+  margin-top:25px;
+  margin-left: 30px;
+  height: 2px;
+  background-color: black;
 }
-
+.datetime{
+  margin-left: 60px;
+  margin-right: 30px;
+}
 .main{
-  margin-top: 25px;
+  margin-top: 5px;
   display: block;
 }
 .title{
+  margin-top: 50px;
+  margin-left: 60px;
+  margin-right: 30px;
+  font-weight: lighter;
+  font-size: 50px;
   text-align: center;
 }
 
 .text{
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
-  max-width: 70%;
+  text-align: left;
+  max-width: 60%;
+  margin-bottom: 50px;
+  font-style: italic;
 }
 
-@media screen and (max-width:630px)
-{
-  .title{
-    margin-left: 25%;
-    margin-right: 25%;
-    text-align: center;
-  }
-  .text{
-    margin-top: 2%;
-    margin-left: 25%;
-    margin-right: 25%;
-    text-align: center;
-  }
-
-  .Image{
-    width:50%;
-    margin-left: 25%;
-    margin-right: 25%;
-  }
-}
 
 
 .container{
-  margin-top: 10px;
+  margin-top: 5px;
   display: block;
 }

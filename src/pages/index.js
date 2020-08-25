@@ -8,12 +8,13 @@ import mainVideo from "../media/mainVideo.mp4"
 import contact from "../media/contact.png"
 import addToMailchimp from 'gatsby-plugin-mailchimp'
 import EmailListForm from "../components/email"
+import abtMeArtboard from "../media/abt-me-final-Artboard_1.png"
 
 function AboutMe() {
   return<div>
   <div className={globalStyle.main}>
     <div className={globalStyle.image}>
-      <img className={globalStyle.main_img} src="abt-me-final-Artboard_1.png" />
+      <img className={globalStyle.main_image} src={abtMeArtboard}/>
       <div className={globalStyle.image_text}>
         <div className={globalStyle.first}>
         <p>SHOWCASED EVENTS / SEASONS</p>
@@ -39,30 +40,38 @@ function AboutMe() {
         <p>supermodel with Down Syndrome)</p>
         </div>
       </div>
-    </div>
     <div className={globalStyle.bottom_text}>
       <p className={globalStyle.fashion_text}>FASHION DESIGN</p>
       <p className={globalStyle.amp_text}>&</p>
       <p className={globalStyle.creat_text}>CREATIVE DIRECTION</p>
     </div>
     <div className={globalStyle.last_par}>
-      <p style="text-indent:40px;">    As a designer, I represent women. I strive to challenge the</p>
+    <p css={{
+      textIndent: '40px'
+    }}>    As a designer, I represent women. I strive to challenge the</p>
       <p>stereotypes between fashion and humanity. Diversity and</p>
       <p>inclusivity drive my actions as a design and encapsulate my</p>
       <p>brand's culture and identity.</p>
-      <p style="text-indent:40px;">    With the construction of over twenty five designs (and </p>
+      <p css={{
+        textIndent: '40px'
+      }}>    With the construction of over twenty five designs (and </p>
       <p>counting) for runways, I am able to express my interpretation</p>
       <p>and distinct understanding of fashion.</p>
-      <p style="text-indent:40px;">    Behind every runway look is garment production,</p>
+      <p css={{
+        textIndent: '40px'
+      }}>    Behind every runway look is garment production,</p>
       <p>including sketching, designing, pattern drafting, sourcing</p>
       <p>materials, sewing, and styling. Showcasing includes</p>
       <p>organizing runway lineups, choreography, audio, and visusals.</p>
       <p>Constantly striving to create a lasting impression among</p>
       <p>audiences.</p>
-      <p style="text-indent:40px;">     A special thank you to my runway teams consisting of</p>
+      <p css={{
+        textIndent: '40px'
+      }}>   A special thank you to my runway teams consisting of</p>
       <p>models, hair stylists, make-up artists, and other industry</p>
       <p>professionals. Every moment I spend with you is a dream come</p>
       <p>true.</p>
+  </div>
   </div>
   </div>
   </div>
@@ -81,7 +90,7 @@ export default function Home() {
     <video className={globalStyle.video} controls muted autoPlay loop>
     <source src={mainVideo} type="video/mp4" />
     </video>
-    <img className={globalStyle.main_img} src={aboutMe} />
+    <AboutMe/>
     <div className={globalStyle.footer}>
     <img className={globalStyle.contact} src={contact} />
     </div>

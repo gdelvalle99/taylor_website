@@ -11,16 +11,19 @@ export default function BlogPost({ data }){
   return(
     <div className={blogpostStyles.daddy}>
     <Menu />
+      <div className={blogpostStyles.head}>
+      <Img className={blogpostStyles.Image} fluid={post.frontmatter.image.childImageSharp.fluid} />
+      <div className={blogpostStyles.titleDiv}>
       <h1 className={blogpostStyles.title}>{post.frontmatter.title}</h1>
+      <hr className={blogpostStyles.rule}></hr>
+      <p className={blogpostStyles.datetime}>Published on {post.frontmatter.date}</p>
+      </div>
+      </div>
       <div className={blogpostStyles.main}>
       <div className={blogpostStyles.container}>
-      <Img className={blogpostStyles.Image} fluid={post.frontmatter.image.childImageSharp.fluid} />
-      <hr></hr>
       <div className={blogpostStyles.text} dangerouslySetInnerHTML={{ __html: post.html }} />
       </div>
       </div>
-      <hr></hr>
-      <p>Published on {post.frontmatter.date}</p>
     </div>
   )
 }

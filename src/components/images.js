@@ -7,7 +7,8 @@ const Images = () => (
     query={graphql`
       query{
         gallImages: allFile(
-          sort: {fields: dir}
+          sort: {fields: dir
+                 order: ASC}
           filter: {
             absolutePath: { regex: "/gallery/"}
           })
