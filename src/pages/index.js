@@ -47,18 +47,18 @@ function AboutMe() {
     </div>
     <div className={globalStyle.last_par}>
     <p css={{
-      textIndent: '40px'
+      textIndent: '4vw'
     }}>    As a designer, I represent women. I strive to challenge the</p>
       <p>stereotypes between fashion and humanity. Diversity and</p>
       <p>inclusivity drive my actions as a design and encapsulate my</p>
       <p>brand's culture and identity.</p>
       <p css={{
-        textIndent: '40px'
+        textIndent: '4vw'
       }}>    With the construction of over twenty five designs (and </p>
       <p>counting) for runways, I am able to express my interpretation</p>
       <p>and distinct understanding of fashion.</p>
       <p css={{
-        textIndent: '40px'
+        textIndent: '4vw'
       }}>    Behind every runway look is garment production,</p>
       <p>including sketching, designing, pattern drafting, sourcing</p>
       <p>materials, sewing, and styling. Showcasing includes</p>
@@ -66,7 +66,7 @@ function AboutMe() {
       <p>Constantly striving to create a lasting impression among</p>
       <p>audiences.</p>
       <p css={{
-        textIndent: '40px'
+        textIndent: '4vw'
       }}>   A special thank you to my runway teams consisting of</p>
       <p>models, hair stylists, make-up artists, and other industry</p>
       <p>professionals. Every moment I spend with you is a dream come</p>
