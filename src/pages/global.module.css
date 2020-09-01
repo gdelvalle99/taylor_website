@@ -61,8 +61,8 @@ p{
 }
 
 .contact{
-  margin-top: 500px;
-  max-width: 500px;
+  margin-top: 50%;
+  max-width: 70%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -102,25 +102,25 @@ p{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 1000px;
+  width: 70%;
+  position: relative;
+  font-size: 1.4vw;
 }
 .image{
-  display: block;
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  width: 1000px;
+  width: 100%;
 }
 .main_image{
-  display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 1000px;
+  width: 100%;
 }
 .image_text{
   position: absolute;
-  top: 170px;
-  right: 55px;
+  top: 6vw;
+  right: 1vw;
   font-style: italic;
 }
 p{
@@ -128,12 +128,9 @@ p{
   padding:0;
 }
 .first{
-  margin-bottom: 100px;
+  margin-bottom: 4vw;
 }
 .bottom_text{
-  background-color: yellow;
-  width: 1000px;
-  display: block;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -141,28 +138,27 @@ p{
 }
 .creat_text{
   position: absolute;
-  left: 420px;
-  top: 860px;
-  font-size: 23.62pt;
+  left: 26vw;
+  top: 60vw;
+  font-size: 2.362vw;
 }
 .amp_text{
   position: absolute;
-  left: 555px;
-  top: 805px;
-  font-size: 47.24pt;
+  left: 40vw;
+  top: 55vw;
+  font-size: 4.724vw;
 }
 .fashion_text{
   position: absolute;
-  left: 320px;
-  font-size: 23.62pt;
+  left: 22vw;
+  font-size: 2.362vw;
 }
 .last_par{
   font-style: italic;
   text-align: left;
-  display:block;
   padding:0;
   position: absolute;
-  top: 920px;
-  left: 320px;
+  top: 65vw;
+  left: 22vw;
   width: 500px;
 }

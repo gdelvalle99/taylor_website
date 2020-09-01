@@ -90,7 +90,9 @@ export default function Home() {
     <video className={globalStyle.video} controls muted autoPlay loop>
     <source src={mainVideo} type="video/mp4" />
     </video>
+    <div className={globalStyle.abtcontainer}>
     <AboutMe/>
+    </div>
     <div className={globalStyle.footer}>
     <img className={globalStyle.contact} src={contact} />
     </div>
