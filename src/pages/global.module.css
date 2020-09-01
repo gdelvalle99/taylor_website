@@ -135,6 +135,7 @@ p{
   margin-right: auto;
   text-align: center;
   font-style: italic;
+  background-color: yellow;
 }
 .creat_text{
   position: absolute;
@@ -144,8 +145,8 @@ p{
 }
 .amp_text{
   position: absolute;
-  left: 40vw;
-  top: 55vw;
+  left: 40.3vw;
+  top: 55.5vw;
   font-size: 4.724vw;
 }
 .fashion_text{
