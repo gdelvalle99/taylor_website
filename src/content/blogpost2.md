@@ -1,5 +1,5 @@
 ---
-title: "Featured quote from Raelia Lewis’s new podcast ‘Everything is Everything’ episode “Colorism in the Modeling Industry”"
+title: "Natalia Lewis on Colorism in the Modeling Industry"
 date: "2020-05-29"
 image: "blogpost2.png"
 ---
