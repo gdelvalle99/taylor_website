@@ -87,6 +87,13 @@
   background: none!important;
   border: none;
 }
+
+.phonebtn{
+  display: none;
+}
+
+
+
 .outModal{
   margin-top: 3px
 }
@@ -109,7 +116,7 @@
   text-decoration: none;
   color: black;
   cursor: pointer;
-  margin-left: 15px;
+  margin-left: 20px;
 }
 .dropdown:hover .dropcontent{
   display: block;

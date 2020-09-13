@@ -18,7 +18,6 @@ export default function Menu() {
   }
 
   return <div className={menuStyles.container}>
-  <div className={menuStyles.instagram}>@tayloruchytil</div>
   <div className={menuStyles.outModal}>
   <button onClick={openModal} className={menuStyles.subbutton}>Subscribe</button>
   <Modal className={menuStyles.emailModal}
@@ -32,6 +31,8 @@ export default function Menu() {
   </div>
 
   <div className={menuStyles.nav}>
+    <button className={menuStyles.phonebtn}>Menu</button>
+    <div className={menuStyles.phonenav}>
     <div className={menuStyles.dropdown}>
       <button className={menuStyles.dropbtn}>More</button>
       <div className={menuStyles.dropcontent}>
@@ -42,6 +43,7 @@ export default function Menu() {
     <Link to="/contact/">Gallery</Link>
     <Link to="/exhibits/">Exhibits</Link>
     <Link to="/">About</Link>
+    </div>
   </div>
   </div>
 }
