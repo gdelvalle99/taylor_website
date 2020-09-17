@@ -2,13 +2,11 @@ import React from "react"
 import Menu from "../components/menu"
 import Logo from "../components/logo"
 import globalStyle from "./global.module.css"
-import aboutMe from "../media/abtme.png"
 import { css } from "@emotion/core"
 import mainVideo from "../media/mainVideo.mp4"
 import contact from "../media/contact.png"
-import addToMailchimp from 'gatsby-plugin-mailchimp'
-import EmailListForm from "../components/email"
-import abtMeArtboard from "../media/abt-me-final-Artboard_1.png"
+import abtMeArtboard from "../media/abt-me-for-site.png"
+import { Helmet } from "react-helmet"
 
 function AboutMe() {
   return<div>
@@ -85,6 +83,10 @@ function AboutMe() {
 export default function Home() {
   return (
     <div>
+      <Helmet>
+        <title>Taylor's</title>
+        <link rel="icon" type="image/png" href="favicon.ico" sizes="16x16" />
+      </Helmet>
     <Menu />
     <Logo />
     <video className={globalStyle.video} controls muted autoPlay loop>

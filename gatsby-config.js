@@ -40,6 +40,7 @@ module.exports = {
       `gatsby-image`,
       `gatsby-transformer-yaml`,
       `gatsby-plugin-styled-components`,
+      `gatsby-plugin-react-helmet`,
       {
       resolve: `gatsby-transformer-remark`,
       options: {
