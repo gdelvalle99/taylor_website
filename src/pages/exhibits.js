@@ -18,8 +18,15 @@ import videothree from "../media/gardner.mp4"
 import videofour from "../media/tulle.mp4"
 
 import Exhibit from "../components/exhibit"
+import { Helmet } from "react-helmet"
+
 export default function Exhibits() {
-  return ( <div css={css`margin-bottom:10%;`}>
+  return ( 
+  <div css={css`margin-bottom:10%;`}>
+    <Helmet>
+        <title>taylor uchytil</title>
+        <link rel="icon" type="image/png" href="favicon.ico" sizes="16x16" />
+      </Helmet>
     <Menu />
     <Exhibit ex={exhibitone} />
     <Exhibit ex={exhibittwo} />

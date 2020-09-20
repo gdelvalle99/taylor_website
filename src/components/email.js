@@ -4,7 +4,8 @@ import TextField from "@material-ui/core/TextField"
 import Button from "@material-ui/core/Button"
 import { Typography } from "@material-ui/core"
 import emailStyles from './email.module.css';
-import Alert from '@material-ui/lab/Alert';
+
+
 export default class MailChimpForm extends React.Component {
   constructor() {
     super()
@@ -14,6 +15,7 @@ export default class MailChimpForm extends React.Component {
     e.preventDefault()
     const result = await addToMailchimp(this.state.email)
     this.setState({result: result})
+    alert('Succesfully subscribed!')
   }
 handleChange = event => {
     this.setState({ email: event.target.value })

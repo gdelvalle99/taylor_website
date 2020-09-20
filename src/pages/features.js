@@ -11,10 +11,15 @@ import sagebrush_text from "../media/nevada_sage_brush.png"
 import sagebrush_cover from "../media/link4.jpg"
 import kolo_cover from "../media/kololink.png"
 import kolo_text from "../media/kolofeature.png"
-import globalStyle from "../styles/global.css"
+import { Helmet } from "react-helmet"
+
 export default function Features() {
   return (
     <div>
+    <Helmet>
+        <title>taylor uchytil</title>
+        <link rel="icon" type="image/png" href="favicon.ico" sizes="16x16" />
+      </Helmet>
       <Menu />
       <Feature link="https://faddymag.com/2019/10/11/issue-13-showcase-4/" cover={faddy_cover} text={faddy_text} />
       <Feature link="https://www.fashionmagazinenyc.com/post/taylor-uchytil-nyfw-2020-pier-59" cover={fashion_cover} text={fashion_text} />

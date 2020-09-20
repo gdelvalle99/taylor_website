@@ -1,14 +1,17 @@
 import React from "react"
 import Menu from "../components/menu"
-import Logo from "../components/logo"
 import { Link, graphql } from "gatsby"
 import blogStyle from "./blog.module.css"
 import Img from "gatsby-image"
+import { Helmet } from "react-helmet"
 
 export default function Blog({ data }) {
-    const siteTitle = "taylor uchytil"
   return (
     <div>
+      <Helmet>
+        <title>taylor uchytil</title>
+        <link rel="icon" type="image/png" href="favicon.ico" sizes="16x16" />
+      </Helmet>
     <Menu />
     <div className={blogStyle.title}>
     <div className={blogStyle.header}>TAYLOR'S</div>

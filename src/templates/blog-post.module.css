@@ -14,12 +14,14 @@ html{
 .titleDiv{
   margin-top: auto;
   margin-bottom: auto;
-  width: 45vw;
+  width: 35vw;
   text-align: center;
+  margin-right: auto;
 }
 
 .Image{
-  width: 50vw;
+  width: 30vw;
+  margin-left: auto;
   margin-bottom: 25px;
 }
 
@@ -42,7 +44,7 @@ html{
   margin-left: 6vw;
   margin-right: 3vw;
   font-weight: lighter;
-  font-size: 5vw;
+  font-size: 4vw;
   text-align: center;
 }
 

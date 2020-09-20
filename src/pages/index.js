@@ -84,7 +84,7 @@ export default function Home() {
   return (
     <div>
       <Helmet>
-        <title>Taylor's</title>
+        <title>taylor uchytil</title>
         <link rel="icon" type="image/png" href="favicon.ico" sizes="16x16" />
       </Helmet>
     <Menu />

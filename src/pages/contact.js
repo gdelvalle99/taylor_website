@@ -1,11 +1,8 @@
 import React from "react"
 import Menu from "../components/menu"
-import ImageComponent from "../components/ImageComponent"
-import globalStyle from "./global.module.css"
 import { graphql } from "gatsby"
-import Img from "gatsby-image"
-import Modal from 'react-modal'
 import Images from "../components/images"
+import { Helmet } from "react-helmet"
 
 const imgGridStyle = {
   display: 'grid',
@@ -17,6 +14,10 @@ const imgGridStyle = {
 export default function Contact({ data }) {
 
   return <div>
+    <Helmet>
+        <title>taylor uchytil</title>
+        <link rel="icon" type="image/png" href="favicon.ico" sizes="16x16" />
+      </Helmet>
   <Menu />
   <Images />
   </div>
