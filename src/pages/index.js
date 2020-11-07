@@ -7,6 +7,7 @@ import mainVideo from "../media/mainVideo.mp4"
 import contact from "../media/contact.png"
 import abtMeArtboard from "../media/abt-me-for-site.png"
 import { Helmet } from "react-helmet"
+import {Demo} from "../components/burgermenu"
 
 function AboutMe() {
   return<div>
@@ -87,7 +88,7 @@ export default function Home() {
         <title>taylor uchytil</title>
         <link rel="icon" type="image/png" href="favicon.ico" sizes="16x16" />
       </Helmet>
-    <Menu />
+      <Menu />
     <Logo />
     <video className={globalStyle.video} controls muted autoPlay loop>
     <source src={mainVideo} type="video/mp4" />
