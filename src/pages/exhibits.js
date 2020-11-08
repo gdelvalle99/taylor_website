@@ -38,7 +38,9 @@ export default function Exhibits() {
     <video className={globalStyle.video} controls muted autoplay loop>
     <source src={videotwo} type="video/mp4" />
     </video>
+    <div className={globalStyle.exhibitFive}>
     <Exhibit ex={exhibitfive} />
+    </div>
     <video className={globalStyle.video} controls muted autoplay loop>
     <source src={videothree} type="video/mp4" />
     </video>
