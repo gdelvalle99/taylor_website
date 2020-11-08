@@ -30,25 +30,25 @@ export default function Exhibits() {
     <Menu />
     <Exhibit ex={exhibitone} />
     <Exhibit ex={exhibittwo} />
-    <video className={globalStyle.video} controls muted autoplay loop>
+    <video className={globalStyle.video} controls muted autoPlay loop>
     <source src={videoone} type="video/mp4" />
     </video>
     <Exhibit ex={exhibitthree} />
     <Exhibit ex={exhibitfour} />
-    <video className={globalStyle.video} controls muted autoplay loop>
+    <video className={globalStyle.video} controls muted autoPlay loop>
     <source src={videotwo} type="video/mp4" />
     </video>
     <div className={globalStyle.exhibitFive}>
     <Exhibit ex={exhibitfive} />
     </div>
-    <video className={globalStyle.video} controls muted autoplay loop>
+    <video className={globalStyle.video} controls muted autoPlay loop>
     <source src={videothree} type="video/mp4" />
     </video>
     <Exhibit ex={exhibitsix} />
     <Exhibit ex={exhibitseven} />
     <Exhibit ex={exhibiteight} />
     <Exhibit ex={exhibitnine} />
-    <video className={globalStyle.video} controls muted autoplay loop>
+    <video className={globalStyle.video} controls muted autoPlay loop>
     <source src={videofour} type="video/mp4" />
     </video>
     <Exhibit ex={exhibitten} />

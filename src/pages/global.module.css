@@ -21,6 +21,10 @@
 p{
   margin: 0;
 }
+.video{
+  max-width: 90%;
+}
+
 .textcontainer{
   font-size: 100%;
   display: block;
