@@ -5,14 +5,19 @@ export default function HTML(props) {
   return (
     <html {...props.htmlAttributes}>
       <head>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MN8HEB9YQM"></script>
-  <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-MN8HEB9YQM"></script>
+      <script dangerouslySetInnerHTML={{
+        __html: `
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-MN8HEB9YQM"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-  gtag('config', 'G-MN8HEB9YQM');
-  </script>
+        gtag('config', 'G-MN8HEB9YQM');
+        </script>`
+      }} />
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta
