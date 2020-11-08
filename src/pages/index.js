@@ -31,8 +31,7 @@ function AboutMe() {
         <p>Artown with proceeds benefitting The</p>
         <p>Children's Cabinet</p>
         <p>- On Common Ground-grassroots 501c3</p>
-        <p>focused on ending hunger and reducing food</p>
-        <p>waste</p>
+        <p>focused on ending hunger and reducing food waste</p>
         <p>- 10th annual Idols and Icons-to benefit</p>
         <p>Down Syndrome Network (Inspiring future </p>
         <p>collaboration with Madeline Stuart, first</p>

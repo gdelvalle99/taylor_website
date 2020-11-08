@@ -9,12 +9,12 @@ const StyledMenu = styled.nav`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: fixed;
   background: white;
   transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
   height: 100%;
   text-align: right;
   padding: 2rem;
-  position: absolute;
   top: 0;
   right: 0;
   transition: transform 0.3s ease-in-out;
@@ -60,7 +60,7 @@ const NMenu = ({ open }) => {
 }
 
 const StyledBurger = styled.button`
-  position: absolute;
+  position: fixed;
   top: 5%;
   right: 2rem;
   display: flex;
