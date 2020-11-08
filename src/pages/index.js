@@ -7,7 +7,6 @@ import mainVideo from "../media/mainVideo.mp4"
 import contact from "../media/contact.png"
 import abtMeArtboard from "../media/abt-me-for-site.png"
 import { Helmet } from "react-helmet"
-import {Demo} from "../components/burgermenu"
 
 function AboutMe() {
   return<div>
@@ -22,8 +21,7 @@ function AboutMe() {
         <p>- Los Angeles Fashion Week: March 2019</p>
         <p>- New York Fashion Week: February 2019</p>
         <p>- Raw Artists- International art organization</p>
-        <p>serving independent artists across the globe:</p>
-        <p>October 2018</p>
+        <p>serving independent artists across the globe: October 2018</p>
         </div>
         <div className={globalStyle.second}>
         <p>VOLUNTEER EXPERIENCE</p>
@@ -32,10 +30,10 @@ function AboutMe() {
         <p>Children's Cabinet</p>
         <p>- On Common Ground-grassroots 501c3</p>
         <p>focused on ending hunger and reducing food waste</p>
-        <p>- 10th annual Idols and Icons-to benefit</p>
-        <p>Down Syndrome Network (Inspiring future </p>
-        <p>collaboration with Madeline Stuart, first</p>
-        <p>supermodel with Down Syndrome)</p>
+        <p>- 10th annual Idols and Icons: to benefit</p>
+        <p>Down Syndrome Network (later inspiring </p>
+        <p>collaboration with Madeline Stuart, </p>
+        <p>supermodel and activist with Down Syndrome)</p>
         </div>
       </div>
     <div className={globalStyle.bottom_text}>
@@ -46,10 +44,9 @@ function AboutMe() {
     <div className={globalStyle.last_par}>
     <p css={{
       textIndent: '2vw'
-    }}>    As a designer, I represent women. I strive to challenge the</p>
-      <p>stereotypes between fashion and humanity. Diversity and</p>
-      <p>inclusivity drive my actions as a design and encapsulate my</p>
-      <p>brand's culture and identity.</p>
+    }}>    As a designer, I represent women and challenge the</p>
+      <p>stereotypes built around the fashion industry. My brand's</p>
+      <p>culture and identity are rooted in diversity and inclusivity.</p>
       <p css={{
         textIndent: '2vw'
       }}>    With the construction of over twenty five designs (and </p>
@@ -57,18 +54,17 @@ function AboutMe() {
       <p>and distinct understanding of fashion.</p>
       <p css={{
         textIndent: '2vw'
-      }}>    Behind every runway look is garment production,</p>
-      <p>including sketching, designing, pattern drafting, sourcing</p>
-      <p>materials, sewing, and styling. Showcasing includes</p>
-      <p>organizing runway lineups, choreography, audio, and visusals.</p>
-      <p>Constantly striving to create a lasting impression among</p>
-      <p>audiences.</p>
+      }}>    In every runway look, there are countless hours of </p>
+      <p>researching, designing, and sewing. Before the dresses </p>
+      <p>are filled by models walking the runway, meticulous efforts </p>
+      <p>have been put forth in cassting, visuals, audio, choreography, </p>
+      <p>and more. With over twenty-five designs and counting, I am able </p>
+      <p>to expres my distinct interpretation of fashion.</p>
       <p css={{
         textIndent: '2vw'
-      }}>   A special thank you to my runway teams consisting of</p>
-      <p>models, hair stylists, make-up artists, and other industry</p>
-      <p>professionals. Every moment I spend with you is a dream come</p>
-      <p>true.</p>
+      }}>   A special thank you to my models, hairstylists, make-up artists, </p>
+      <p>and other industry professionals. Every moment I spend with you</p>
+      <p>is a dream come true. </p>
   </div>
   </div>
   </div>

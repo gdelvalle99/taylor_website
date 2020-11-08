@@ -129,9 +129,10 @@ p{
   width: 100%;
 }
 .image_text{
+  width: 50%;
   position: absolute;
   top: 10vw;
-  right: 2vw;
+  right: -8vw;
   font-style: italic;
   font-size: 1.2vw;
 }
