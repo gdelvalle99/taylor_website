@@ -10,12 +10,13 @@ const StyledMenu = styled.nav`
   flex-direction: column;
   justify-content: center;
   position: fixed;
-  background: white;
+  background: gray;
   transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
   height: 100%;
   text-align: right;
   padding: 2rem;
   top: 0;
+  border-style: none none none solid;
   right: 0;
   transition: transform 0.3s ease-in-out;
   z-index: 3;
@@ -23,16 +24,15 @@ const StyledMenu = styled.nav`
   a {
     font-size: 1rem;
     text-transform: uppercase;
-    padding: 2rem 0;
+    padding: 0;
     font-weight: bold;
-    letter-spacing: 0.5rem;
     color: #0D0C1D;
     text-decoration: none;
     transition: color 0.3s linear;
 
 
     &:hover {
-      color: gray;
+      color: white;
     }
   }
 `
@@ -61,7 +61,7 @@ const NMenu = ({ open }) => {
 
 const StyledBurger = styled.button`
   position: fixed;
-  top: 5%;
+  top: 42px;
   right: 2rem;
   display: flex;
   flex-direction: column;

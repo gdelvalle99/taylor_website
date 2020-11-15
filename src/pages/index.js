@@ -9,7 +9,7 @@ import abtMeArtboard from "../media/abt-me-for-site.png"
 import { Helmet } from "react-helmet"
 
 function AboutMe() {
-  return<div>
+  return <div>
   <div className={globalStyle.main}>
     <div className={globalStyle.image}>
       <img className={globalStyle.main_image} src={abtMeArtboard}/>

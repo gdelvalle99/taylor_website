@@ -21,7 +21,6 @@
     zoom: 1;
     width: 100%;
     overflow: hidden;
-    background-color:white;
   }
   .smallnav a{
     font-family: baskerville-display-pt, serif;
@@ -34,6 +33,19 @@
 
   .nav{
     display: none;
+  }
+  .subbutton{
+    font-family: baskerville-display-pt, serif;
+    zoom: 1;
+    vertical-align: top;
+    font-size: 18px;
+    padding-top: 8px;
+    background: none!important;
+    border: none;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    position: fixed;
   }
 }
 
