@@ -5,6 +5,7 @@
   flex-direction: row;
   margin-top: 31px;
   margin-bottom: 10px;
+  background-color: white;
 }
 
 .smallnav{
@@ -14,6 +15,7 @@
 @media screen and (max-width: 600px){
 
   .smallnav{
+    background-color: white;
     display: block;
     font-family: baskerville-display-pt, serif;
     margin-right: 50px;
@@ -40,12 +42,13 @@
     vertical-align: top;
     font-size: 18px;
     padding-top: 8px;
-    background: none!important;
+    background-color: white;
     border: none;
     text-decoration: none;
     color: black;
     cursor: pointer;
     position: fixed;
+    z-index: 3;
   }
 }
 

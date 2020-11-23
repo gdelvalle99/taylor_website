@@ -17,7 +17,7 @@ function Model(props){
     </div>
 }
 
-export default function Carousel(images=[], girls=[]){
+function Slideshow(images=[], girls=[]){
     const [index, setIndex] = useState(0)
     const [iState, setiState] = useState(0)
     const [girl1, setGirl1] = useState({})
@@ -79,6 +79,7 @@ export default function Carousel(images=[], girls=[]){
     
     return (
         <div>
+            <Model image={girl1} onClick={() => clickGirl(index+1)} />
 
         </div>
     )

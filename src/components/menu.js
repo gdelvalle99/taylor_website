@@ -60,6 +60,7 @@ const NMenu = ({ open }) => {
 }
 
 const StyledBurger = styled.button`
+  background-color: white;
   position: fixed;
   top: 42px;
   right: 2rem;

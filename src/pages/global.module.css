@@ -1,3 +1,9 @@
+@media only screen and (max-width: 600px){
+  .within{
+    text-decoration: none;
+  }
+}
+
 .container{
   height: 100%;
   width: 100%;
@@ -112,6 +118,9 @@ p{
 
 /* About me styling */
 
+.bigdiv{
+  margin-top: 10%;
+}
 .main{
   max-width: 100% !important;
   margin: 0 auto;
@@ -120,6 +129,23 @@ p{
   position: relative;
   font-size: 1.3vw;
   font-family: "Times New Roman";
+}
+.imgcontainer{
+  text-decoration: none;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background-color: black;
+}
+.within{
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.eximage{
+  width:200px;
+  text-decoration: none;
 }
 .image{
   margin-left: auto;
@@ -152,7 +178,6 @@ p{
   margin-right: auto;
   text-align: center;
   font-style: italic;
-  background-color: yellow;
 }
 .creat_text{
   position: absolute;
